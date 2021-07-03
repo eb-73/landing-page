@@ -1,0 +1,45 @@
+
+
+nav{
+    
+    direction: rtl;
+    @include box-shadow-nav;
+    
+   
+
+button i{
+    color:rgb(92, 92, 92);
+    
+}
+button:hover  i{
+    color: rgb(199, 60, 60);
+    
+}
+ul{
+   li{
+    a{  font-size: .8rem;
+        @include media-breakpoint-up(md){
+            font-size: 1rem;
+            
+        }
+        @include media-breakpoint-up(lg){
+            font-size: 1.1rem;
+            
+        }
+        color:rgb(92, 92, 92);      
+    }
+    a:hover{
+        background-color: rgba(199, 60, 60, 0.041);
+        color: rgb(199, 60, 60);
+    }
+   }
+   li:first-child{
+       a{  color:white;  
+           background-color: rgb(199, 60, 60);
+           box-shadow: .2rem .2rem 1rem #acacac,-.2rem -.2rem .9rem #ffffff;
+        }
+      
+   }
+    
+}
+}

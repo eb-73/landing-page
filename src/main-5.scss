@@ -1,0 +1,123 @@
+.main-5{
+    width: 100%;
+    height: 35rem;
+    @include media-breakpoint-up(md){
+        width: 100%;
+        height: 40rem;
+       
+        
+    }
+    .sub-main5{
+        background-image: url("../pic/Recta.png");
+        background-size: cover;
+        border-radius: 2rem;
+        
+        width: 92%;
+        @include media-breakpoint-up(md){
+            width: 92%;
+            height: 35rem ;
+           
+            
+        }
+        height: 100%;
+      .form-landing{
+        width: 100%;
+        @include media-breakpoint-up(md){
+            width: 70%;
+            clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+            border-top-right-radius: 0;
+            
+            
+        }
+        height: 100%;
+        backdrop-filter: blur(20px);
+        border-radius: 2rem;
+        h1{
+            color: rgb(253, 253, 253);
+          font-size: 2rem;
+          @include media-breakpoint-up(md){
+            
+            font-size: 1.8rem;
+            
+        }
+          height: 4rem;
+        }
+        .in-form{
+          width: 90%;
+          @include media-breakpoint-up(md){
+            width: 75%; 
+            border-radius: 1.2rem;
+            box-shadow: inset -4px -4px 4px rgba(255, 255, 255, .5),inset 4px 4px 4px rgba(0, 0, 0, .1);
+            background-color: rgba(255, 255, 255, 0);
+            -webkit-backdrop-filter:blur(10px);
+
+        }
+          height: 3rem;
+          border-radius: 2rem;
+          border: none;
+          background-color: #c2c2c2b4;
+        
+          
+        }
+        .in-form::placeholder{
+            font-size: 1.2rem;
+            color: #424242;    
+        }
+        .in-form:focus{
+            outline: none;
+        }
+
+       
+        .chek{
+          width: 90%;
+          @include media-breakpoint-up(md){
+            width: 75%;  
+            }
+            @include media-breakpoint-up(lg){
+                width: 70%;  
+                }
+          height: 6rem;
+        label{
+            h5{ margin-left: 2.5rem;
+                font-size: 1.5rem;
+                color: rgb(224, 224, 224);
+                @include media-breakpoint-up(md){
+                    font-size: 1.1rem; 
+                    margin-left: 2rem;
+                    }
+                @include media-breakpoint-up(lg){
+                    font-size: 1.2rem; 
+                    }
+            }
+        }
+          
+         
+          
+        }
+        .but2{
+          width: 90%;
+          height: 5rem;
+          .btn{
+            width: 16rem;
+            height: 4rem;
+            background-color: rgb(199, 60, 60);
+            border-radius: 2rem;
+            box-shadow:  2px 2px 10px rgb(39, 39, 39);
+            transition: .2s ease-out;
+            @include media-breakpoint-up(md){
+                width: 13rem;
+                height: 4rem;   
+                }
+            color: white;
+            font-size: 1.5rem;
+            
+          }
+          .btn:hover{
+            box-shadow: 2px 2px 20px rgb(199, 60, 60),-2px -2px 20px rgb(199, 60, 60);
+            color: black;
+          }
+        }
+      }
+    }
+  
+  }

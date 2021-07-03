@@ -1,0 +1,7 @@
+div.main{
+    @include box-shadow;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 100%;
+    
+}

@@ -1,0 +1,30 @@
+@mixin box-shadow-nav {
+    border-top-right-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+    background-color: #f5f5f5;
+    box-shadow:  10px 10px 35px #d0d0d0,-.10px -.10px 35px#ffffff;
+  }
+  @mixin box-shadow-radius {
+    border-radius: 2.5rem;
+    background-color: #f5f5f5;
+    box-shadow:  10px 10px 35px #d0d0d0,-.10px -.10px 35px#ffffff;
+  
+  }
+  @mixin box-shadow {
+    background-color: #f5f5f5;
+    box-shadow:  .5rem 0 .9rem #d0d0d0,-.5rem 0 .9rem #ffffff;
+  
+  }
+  @mixin img-shadow {
+    
+    filter: drop-shadow(.6rem .6rem .9rem #3d3d3d);
+
+  
+  }
+  @mixin box-shadow-blur{
+    //background-color: rgba( 255, 255, 255, 0.00 );
+    border: 3px solid rgba(179, 179, 179, 0.2);
+    border-radius: 1.2rem;
+    //box-shadow:  -.5px -.5px .5rem rgba(255, 255, 255, .5), .5rem .5rem 1rem rgba(0, 0, 0, .1);
+    backdrop-filter: blur(10px);
+    }

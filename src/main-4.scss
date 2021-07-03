@@ -1,0 +1,157 @@
+.main-4{
+
+    width: 100%;
+    height: 160rem;
+    @include media-breakpoint-up(md){
+        height: 48rem;
+        
+    }
+    h1{ width: 100%;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: black;
+    }
+    .sub-main4{
+        width: 100%;
+        height: 140rem;
+        @include media-breakpoint-up(md){
+            height: 33rem;
+            
+        }
+        
+        .box2{
+            width: 92%;
+            height:45rem; 
+            @include media-breakpoint-up(md){
+                height: 32rem;
+                width: 31%;
+                
+            }
+            @include box-shadow-radius;
+            .img-tour{
+                position: relative;
+                width:100%;
+                height:18rem;
+                @include media-breakpoint-up(md){
+                    height:12rem;
+                    
+                }
+                
+                background-blend-mode:screen;
+                background-size:cover;
+                border-top-left-radius: 1.2rem;
+                border-top-right-radius: 1.2rem;
+                h2{ color:white;
+                    font-size: 1.5rem;
+                    @include media-breakpoint-up(md){
+                        font-size: .9rem;
+                        
+                    }
+                    
+                }
+                svg{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+            .sub-img-tour{
+                height: 25rem;
+                @include media-breakpoint-up(md){
+                    height: 20rem;
+                    
+                }
+                .days-tour{
+                    height: 10rem;
+                    width: 90%;
+                    h5{ 
+                        width: 90%;
+                        font-size: 1.2rem;
+                        @include media-breakpoint-up(md){
+                            font-size: .8rem;
+                            
+                        }
+                        border-bottom: 1px solid rgb(179, 179, 179);
+                    }
+                }
+                .price-tour{
+                    width: 90%;
+                    height: 7rem;
+                    h5{
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        @include media-breakpoint-up(md){
+                            font-size: 1rem;
+                            
+                        }
+                    }
+                    h1{
+                        font-size: 3rem;
+                        font-weight:lighter;
+                        @include media-breakpoint-up(md){
+                            font-size: 2rem;
+                            
+                        }
+                    }
+                    button{
+                        width: 12rem;
+                        height: 3rem;
+                        font-size: 1rem;
+                        box-shadow:  2px 2px 10px rgb(39, 39, 39);
+                        transition: .2s ease-out;
+                        @include media-breakpoint-up(md){
+                            width: 8rem;
+                            height: 2rem;
+                            font-size: .9rem;
+                            
+                        }
+                        background-color: rgb(199, 60, 60);
+                        border-radius: 2rem;
+                        color:white;
+                    }
+                    button:hover{
+                        box-shadow: 2px 2px 20px rgb(199, 60, 60),-2px -2px 20px rgb(199, 60, 60);
+                    }
+                }
+                }
+                
+        }
+        .box2-1{
+            .img-tour{
+            background-image: linear-gradient(to right,rgba(255, 166, 0, 0.568),rgba(255, 102, 0, 0.568)),url("../pic/nat-5.jpg");
+                h2{
+                    background-image:linear-gradient(to right,rgba(255, 166, 0, 0.568),rgba(255, 102, 0, 0.568)) ;
+
+                }
+            }
+        
+        }
+        .box2-2{
+            .img-tour{
+            background-image: linear-gradient(to right,rgba(0, 128, 0, 0.747),rgba(4, 78, 1, 0.747)),url("../pic/nat-6.jpg");
+                h2{
+                    background-image:linear-gradient(to right,rgba(0, 128, 0, 0.747),rgba(4, 78, 1, 0.747)) ;
+
+                }
+            }
+        
+        }
+        .box2-3{
+            .img-tour{
+            background-image: linear-gradient(to right,rgba(0, 183, 255, 0.568),rgba(5, 51, 151, 0.568)),url("../pic/nat-7.jpg");
+                h2{
+                    background-image:linear-gradient(to right,rgba(0, 183, 255, 0.568),rgba(5, 51, 151, 0.568)) ;
+
+                }
+            }
+        
+        }
+    }
+    .main-4-wave{
+        -webkit-filter: drop-shadow( 4px 4px 3px rgba(0, 0, 0, .7));
+        filter: drop-shadow( 4px 4px 3px rgba(0, 0, 0, .7));
+       
+    }
+    
+
+}

@@ -1,0 +1,34 @@
+ 
+        <div class="box2-2">
+                <div class="img-tour">
+                  <h2>THE FOREST HIKER</h2>
+                </div>
+                <div class="days-tour d-flex flex-column justify-content-around align-items-center">
+                  <h5 class="d-flex flex-column justify-content-around align-items-center">7 day tours</h5>
+                  <h5 class="d-flex flex-column justify-content-around align-items-center">up to 50 pepole</h5>
+                  <h5 class="d-flex flex-column justify-content-around align-items-center">dificulty:medium</h5>
+                </div>
+                <div class="price-tour d-flex flex-column justify-content-around align-items-center">
+                  <h5>only</h5>
+                  <h1>$372</h1>
+                  <div class="d-flex flex-column justify-content-around align-items-center">BOOK NOW!</div>
+                </div>
+              </div>
+              <div class="box2-3">
+                <div class="img-tour">
+                  <h2>THE SNOW ADVENTURER</h2>
+                </div>
+                <div class="days-tour d-flex flex-column justify-content-around align-items-center">
+                  <h5 class="d-flex flex-column justify-content-around align-items-center">5 day tours</h5>
+                  <h5 class="d-flex flex-column justify-content-around align-items-center">up to 15 pepole</h5>
+                  <h5 class="d-flex flex-column justify-content-around align-items-center">dificulty:hard</h5>
+                </div>
+                <div class="price-tour d-flex flex-column justify-content-around align-items-center">
+                  <h5>only</h5>
+                  <h1>$569</h1>
+                  <div class="d-flex flex-column justify-content-around align-items-center">BOOK NOW!</div>
+                </div>
+              </div>          
+                  
+                  
+                  

@@ -1,0 +1,133 @@
+.main-3{
+    width: 100%;
+    height:45rem;
+    @include media-breakpoint-up(md){
+        height:32rem;
+        
+    }
+    @include media-breakpoint-up(lg){
+        height:35rem;
+        
+    }
+        background-image: url("../pic/Rectangle.png");
+        background-size: cover;
+        background-attachment: fixed;
+    h1{
+        font-size:1.3rem;
+        font-weight: bold;
+        color: white;;
+    }
+    .sub-main3{
+        width: 95%;
+        height: 40rem;
+        @include media-breakpoint-up(md){
+            height:30rem;
+            
+        }
+        .boxx{
+            width: 94%;
+            height: 45%;
+            @include media-breakpoint-up(md){
+                width: 48%;
+                height: 14rem;
+                
+            }
+            word-wrap: break-word;
+            .hov-img{
+                
+                width: 10rem;
+                height: 10rem;
+                p{  
+                    opacity: 0;
+                    position: relative;                    
+                    top: -7rem;
+                    color: rgb(0, 0, 0);
+                    padding: 1rem;
+                    
+                    border-radius: 2rem;
+                    text-align: center;
+                    transition:  .3s ease-out;
+                   
+                    
+                    width: 10rem;
+                    height: 10rem;
+                    @include media-breakpoint-up(md){
+                        width: 8rem;
+                        height: 8rem;
+                        
+                    }
+                    @include media-breakpoint-up(lg){
+                        width: 10rem;
+                        height: 10rem;
+                        
+                    }
+                }
+            }
+            .hov-img:hover > p{
+                opacity: 100;
+                top: -10rem;
+                backdrop-filter: blur(10px);
+                
+                
+            }
+            
+            
+            @include box-shadow-blur;
+            h1{
+                text-align: right;
+                font-size: 2rem;
+                font-weight: bolder;
+                color:white;
+            }
+            img{
+                border-radius: 2rem;
+                width: 10rem;
+                height: 10rem;
+                @include media-breakpoint-up(md){
+                    width: 8rem;
+                    height: 8rem;
+                    
+                }
+                @include media-breakpoint-up(lg){
+                    width: 10rem;
+                    height: 10rem;
+                    
+                }
+                @include img-shadow;
+            }
+            
+            .text-box{
+                text-align: center;
+                width: 50%;
+                height: 11rem;
+                h5{
+                    color:white;
+                    font-size:1rem;
+                    @include media-breakpoint-up(md){
+                        font-size: .9rem;
+                        
+                    }
+                    @include media-breakpoint-up(lg){
+                        font-size: 1.3rem;
+                        
+                    }
+                }
+                
+                p{
+                    font-size: .9rem;
+                    @include media-breakpoint-up(md){
+                        font-size: .8rem;
+                        
+                        
+                    }
+                    @include media-breakpoint-up(lg){
+                        font-size: 1rem;
+                        
+                    }
+                    color:#acacac
+                }
+            }
+        }
+    
+    }
+}
